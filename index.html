@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yinhan (Lizzy) Gao</title>
+<meta name="description" content="Yinhan (Lizzy) Gao — Computer Science & Applied Math student at Duke Kunshan University and Duke University. Human-centered AI, data analytics, and product operations.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ TOP NAV ============ -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">Yinhan <span>(Lizzy)</span> Gao</a>
+    <nav class="nav" id="nav">
+      <a href="#publications">Publications</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </div>
+</header>
+
+<main class="layout" id="top">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="card profile">
+      <img class="avatar" src="images/profile.jpg" alt="Portrait of Yinhan (Lizzy) Gao">
+      <h1 class="name">Yinhan (Lizzy) Gao</h1>
+      <p class="role">Computer Science &amp; Applied Mathematics<br>B.S. · Class of 2027</p>
+
+      <div class="contact">
+        <a href="mailto:yg247@duke.edu"><span class="ic">@</span> yg247@duke.edu</a>
+        <span class="plain"><span class="ic">⌖</span> Kunshan, China</span>
+      </div>
+
+      <a class="btn" href="mailto:yg247@duke.edu">Get in touch</a>
+    </div>
+
+    <div class="card edu-card">
+      <h2 class="side-title">Education</h2>
+      <ul class="edu-list">
+        <li>
+          <b>Duke Kunshan University</b>
+          <span class="edu-degree">B.S. in Computer Science and Technology</span>
+          <span class="edu-when">Sep. 2023 – Jun. 2027 · Kunshan, China</span>
+        </li>
+        <li>
+          <b>Duke University</b>
+          <span class="edu-degree">B.S. in Interdisciplinary Studies — Applied Math &amp; Computational Science; Computer Science</span>
+          <span class="edu-when">Sep. 2023 – Jun. 2027</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card skill-card">
+      <h2 class="side-title">Skills</h2>
+      <div class="skill-row">
+        <span class="skill-label">Programming</span>
+        <div class="chips sm">
+          <span>Python</span><span>pandas</span><span>PyTorch</span><span>HuggingFace</span>
+          <span>SQL</span><span>Java</span><span>HTML / CSS</span><span>D3.js</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Data &amp; ML</span>
+        <div class="chips sm">
+          <span>Machine Learning</span><span>NLP</span><span>Prompt Engineering</span>
+          <span>Fine-tuning</span><span>RAG / In-context Learning</span><span>Data Cleaning &amp; Analysis</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-label">Design &amp; Tools</span>
+        <div class="chips sm">
+          <span>Tableau</span><span>Figma</span><span>Excel</span><span>PowerPoint</span>
+          <span>Video Editing</span><span>Social Media Marketing</span>
+        </div>
+      </div>
+      <ul class="footnote">
+        <li><span>Certificate</span> Introduction to Data Science in Python — University of Michigan (Coursera)</li>
+        <li><span>Languages</span> Chinese Mandarin (Native) · English (Proficient)</li>
+        <li><span>Outside work</span> Basketball (school varsity) · Photography · Music · Travel</li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <div class="content">
+
+    <!-- INTRO -->
+    <section class="card hero">
+      <h2 class="hero-title">Human-centered AI and data-driven product insight.</h2>
+      <p class="intro">I am an undergraduate at Duke Kunshan University and Duke University, studying Computer Science and Applied Mathematics. My work sits at the intersection of human-centered AI and product analytics — I build ML pipelines, design interactive data visualizations, and run experiments that inform product decisions. Recent projects include <b>CollaDrum</b>, an assistive music device for autistic children published at <b>CHI EA '26</b>, and ad-monetization analytics for live games at <b>Tencent</b>.</p>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="card" id="publications">
+      <h2 class="sec-title">Publications</h2>
+      <ol class="pubs">
+        <li>
+          <p class="pub-venue">CHI EA '26 · Poster</p>
+          <p class="pub-title">CollaDrum: Designing a Tangible Interactive Sonic System to Foster Collaboration in Children with Autism Spectrum Disorder</p>
+          <p class="pub-meta"><b>Yinhan Gao</b>, Yalong Luo, Wenwei Jiang, Wanling Cai, Yucheng Jin — <i>Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems</i>, 1–5.</p>
+          <p class="pub-links">
+            <a href="https://dl.acm.org/doi/10.1145/3772363.3799088" target="_blank" rel="noopener">ACM DL</a>
+            <a href="https://doi.org/10.1145/3772363.3799088" target="_blank" rel="noopener">DOI</a>
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="card" id="research">
+      <h2 class="sec-title">Research &amp; Projects</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">01</span>CollaDrum: Assistive Music Device for Autistic Children</h4>
+          <span class="date">May 2025 – Aug 2025</span>
+        </div>
+        <p class="meta">Summer Research Scholar, Duke Kunshan University · advised by Dr. Yuchen Jin</p>
+        <ul class="bullets">
+          <li>Ran semi-structured interviews with teachers at autism-focused institutions to define design goals, grounded in a literature review on assistive technology and human-centered design.</li>
+          <li>Designed and coded the full system on ESP32 with touch sensors and LED strips — teacher-side control, WiFi inter-device communication, and audio playback — behind a modular control + utility architecture.</li>
+          <li>Work was published as a <b>CHI EA'26</b> poster.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">02</span>Dynamic Asset Management for NBA Teams</h4>
+          <span class="date">Mar 2026</span>
+        </div>
+        <p class="meta">ICM Mathematical Contest in Modeling · Team Member</p>
+        <ul class="bullets">
+          <li>Turned player-level NBA statistics (Win Shares, VORP, age, minutes) into team-level competitiveness and risk-adjusted <i>Real Power</i> indicators.</li>
+          <li>Co-built a framework pairing Agent-Based Modeling with Gaussian Process Regression to link roster decisions to performance, valuation, and revenue over five years.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">03</span>Multimodal Emotion Cause Explanation</h4>
+          <span class="date">Mar 2024 – Jul 2024</span>
+        </div>
+        <p class="meta">Research / Competition Project · MECEC benchmark</p>
+        <ul class="bullets">
+          <li>Aligned multimodal dialogue data from MELD — dialogue history, video segments, cross-modal correspondence — for emotion-cause explanation.</li>
+          <li>Benchmarked GLM, MiniCPM-o-2.6, Kimi, and LLaVA-Video/Qwen2 with prompt optimization, in-context learning, and retrieval; reached ~<b>0.301</b> ROUGE-L and ~<b>0.259</b> semantic similarity, well above the GLM baseline.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">04</span>Spotify Music Data Visualization</h4>
+          <span class="date">Mar 2026</span>
+        </div>
+        <p class="meta">In-class individual project</p>
+        <ul class="bullets">
+          <li>Compared acoustic features across six genres from 100,000+ tracks using Python (pandas) and stratified sampling.</li>
+          <li>Built an interactive Tableau dashboard — scatter plots, heatmaps, dual-axis lollipop charts, jitter plots — to surface patterns that average-popularity comparisons hide.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">05</span>Social Sentiment &amp; Financial Market Analysis</h4>
+          <span class="date">Mar 2026</span>
+        </div>
+        <p class="meta">In-class team project</p>
+        <ul class="bullets">
+          <li>Studied investor sentiment against market volatility during the 2021 GameStop short squeeze, joining Reddit r/wallstreetbets, Yahoo Finance GME data, and financial sentiment data.</li>
+          <li>Fine-tuned a RoBERTa-base classifier to ~<b>64.20%</b> accuracy and contributed to a Python/D3.js dashboard with sentiment flow, an animated market spiral, and parallel-coordinate views.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4><span class="no">06</span>BERT-CLOTH Fine-tuning Pipeline</h4>
+          <span class="date">Mar 2026</span>
+        </div>
+        <p class="meta">In-class team project</p>
+        <ul class="bullets">
+          <li>Built a HuggingFace/PyTorch pipeline for BERT fine-tuning on CLOTH (~82.7K train / 8.5K validation / 8.9K test).</li>
+          <li>Supported linear, last-layer, and full fine-tuning with warmup, AdamW, gradient clipping, and checkpointing under a YAML config; full fine-tuning reached ~<b>71.23%</b> test accuracy.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="card" id="experience">
+      <h2 class="sec-title">Experience</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4>Tencent</h4>
+          <span class="date">May 2026 – Aug 2026</span>
+        </div>
+        <p class="meta">Intern, Assistant Product Operations · Shanghai, China</p>
+        <ul class="bullets">
+          <li>Analyzed competitor products and live-ops for casual puzzle games, comparing core gameplay, monetization, art design, and difficulty curve.</li>
+          <li>Ran ~18 A/B tests through a hypothesis → behavior → metric → validation loop; traced new-user funnels and located the main retention losses between early levels among paid-acquisition users.</li>
+          <li>Led advertising analytics across ad penetration, impressions, completion rate, eCPM, and revenue, supporting changes that lifted ad exposure ~<b>35%</b>, eCPM ~<b>19%</b>, and revenue per 1,000 logins ~<b>60%</b>.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4>DEEPZONE <span class="dim">· U-Corp Spring 2024 Program</span></h4>
+          <span class="date">Mar 2024 – Jul 2024</span>
+        </div>
+        <p class="meta">Team Leader · Kunshan, China</p>
+        <ul class="bullets">
+          <li>Led a 3-person team designing narrative and interaction logic for an AI-powered social platform.</li>
+          <li>Turned story design into technical requirements with engineering — AIGC image prompt engineering and the user-facing "story revision" logic — then validated the AI output end to end.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h4>iFLYTEK</h4>
+          <span class="date">Jun 2024</span>
+        </div>
+        <p class="meta">Intern, Assistant Product Operations Specialist · Shanghai, China</p>
+        <ul class="bullets">
+          <li>Built low-code automation tools with K-12 teachers for questionnaire collection and student data management, cutting manual admin work.</li>
+        </ul>
+      </div>
+
+      <ul class="rows tight">
+        <li>
+          <span class="row-main">
+            <b>DKU Innovation and Entrepreneurship Initiative (InE)</b>
+            <span class="pos">Student Worker, Program Assistant — event coordination, interviews, and program logistics</span>
+          </span>
+          <span class="when">Oct. 2023 – Aug. 2025</span>
+        </li>
+        <li>
+          <span class="row-main">
+            <b>Campus Activities Board (CAB), DKU</b>
+            <span class="pos">Event Coordinate Assistant</span>
+          </span>
+          <span class="when">Oct. 2023 – Jun. 2024</span>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> Yinhan (Lizzy) Gao · Duke Kunshan University &amp; Duke University · <a href="mailto:yg247@duke.edu">yg247@duke.edu</a></p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
